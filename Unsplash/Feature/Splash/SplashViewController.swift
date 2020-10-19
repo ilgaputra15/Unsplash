@@ -8,6 +8,8 @@
 import UIKit
 
 class SplashViewController: UIViewController {
+    
+    var viewModel: SplashViewModel!
 
     override func viewDidLoad() {
         super.viewDidLoad()

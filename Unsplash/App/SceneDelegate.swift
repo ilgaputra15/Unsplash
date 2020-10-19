@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import RxSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var disposeBag = DisposeBag()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -18,9 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: scene)
-        let nav = UINavigationController(rootViewController: SplashViewController())
-        window?.rootViewController = nav
-        window?.makeKeyAndVisible()
+        let splash = SplashCoordinator(window: window!)
+        splash.start()
+            .subscribe()
+            .disposed(by: disposeBag)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
