@@ -10,8 +10,11 @@ import RxSwift
 
 class DashboardCoordinator: BaseCoordinator<Void> {
     
+    let viewModel = DashboardViewModel()
+    
     override func start() -> Observable<Void> {
         let viewController = DashboardViewController()
+        viewController.viewModel = viewModel
         navigationController.pushViewController(viewController, animated: true)
         return Observable.never()
     }

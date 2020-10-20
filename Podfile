@@ -3,8 +3,9 @@
 
 target 'Unsplash' do
   # Comment the next line if you don't want to use dynamic frameworks
-  pod 'RxSwift', '6.0.0-rc.1'
-  pod 'RxCocoa', '6.0.0-rc.1'
+
+  pod 'RxCocoa', '5.1.1'
+  pod 'Moya/RxSwift', '~> 14.0'
   pod 'SwiftLint'
 
   # Pods for Unsplash

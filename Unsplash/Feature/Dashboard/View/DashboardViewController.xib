@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DashboardViewController" customModule="Unsplash" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="OlP-5r-G2Z" id="fca-rF-kZk"/>
+                <outlet property="searchBar" destination="ddR-hb-KJa" id="fgW-tR-gzu"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

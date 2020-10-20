@@ -18,6 +18,7 @@
 		E56DC910253B3A8600585A7A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56DC90F253B3A8600585A7A /* Colors.xcassets */; };
 		E56DC922253B41D900585A7A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC920253B41D900585A7A /* SplashViewController.swift */; };
 		E56DC923253B41D900585A7A /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56DC921253B41D900585A7A /* SplashViewController.xib */; };
+		E57CB0EE253DE050004DC089 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57CB0ED253DE050004DC089 /* BaseModel.swift */; };
 		E581254F253B4A9B007C38D3 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581254E253B4A9B007C38D3 /* SplashViewModel.swift */; };
 		E5812554253B4AAC007C38D3 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5812553253B4AAC007C38D3 /* SplashCoordinator.swift */; };
 		E581256C253B4FF9007C38D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581256B253B4FF9007C38D3 /* AppCoordinator.swift */; };
@@ -25,6 +26,17 @@
 		E581258E253B51A6007C38D3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581258C253B51A6007C38D3 /* DashboardViewController.swift */; };
 		E581258F253B51A6007C38D3 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E581258D253B51A6007C38D3 /* DashboardViewController.xib */; };
 		E581259C253B521C007C38D3 /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581259B253B521C007C38D3 /* DashboardCoordinator.swift */; };
+		E5F50490253DBFA900833848 /* PhotoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5048F253DBFA900833848 /* PhotoApi.swift */; };
+		E5F50498253DD7CC00833848 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50497253DD7CC00833848 /* BaseApi.swift */; };
+		E5F5049E253DD80C00833848 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5049D253DD80C00833848 /* BuildConfig.swift */; };
+		E5F504A3253DDA2500833848 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504A2253DDA2500833848 /* PhotoRepository.swift */; };
+		E5F504A9253DDB3400833848 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504A8253DDB3400833848 /* Reactive.swift */; };
+		E5F504C9253DDF3200833848 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504C8253DDF3200833848 /* PhotoModel.swift */; };
+		E5F504CF253DE2C400833848 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504CE253DE2C400833848 /* DashboardViewModel.swift */; };
+		E5F504D8253ED91B00833848 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */; };
+		E5F504D9253ED91B00833848 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */; };
+		E5F504E2253EF0AF00833848 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504E1253EF0AF00833848 /* UIImageView.swift */; };
+		E5F504EA253EF0CA00833848 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504E9253EF0CA00833848 /* Colors.swift */; };
 		E67C6593CD2AE8FDC3AE5237 /* libPods-Unsplash-UnsplashUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABB72DFBB87426DAE9E75F3 /* libPods-Unsplash-UnsplashUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +81,7 @@
 		E56DC90F253B3A8600585A7A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E56DC920253B41D900585A7A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		E56DC921253B41D900585A7A /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		E57CB0ED253DE050004DC089 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		E581254E253B4A9B007C38D3 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		E5812553253B4AAC007C38D3 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
 		E581256B253B4FF9007C38D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -76,6 +89,17 @@
 		E581258C253B51A6007C38D3 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		E581258D253B51A6007C38D3 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
 		E581259B253B521C007C38D3 /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
+		E5F5048F253DBFA900833848 /* PhotoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApi.swift; sourceTree = "<group>"; };
+		E5F50497253DD7CC00833848 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		E5F5049D253DD80C00833848 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
+		E5F504A2253DDA2500833848 /* PhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		E5F504A8253DDB3400833848 /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
+		E5F504C8253DDF3200833848 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		E5F504CE253DE2C400833848 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5F504E1253EF0AF00833848 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E5F504E9253EF0CA00833848 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F2BAB0688D541DA24027D0D2 /* Pods-Unsplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash.release.xcconfig"; path = "Target Support Files/Pods-Unsplash/Pods-Unsplash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				E56DC91B253B40B900585A7A /* Resource */,
-				E56DC91A253B40B000585A7A /* Model */,
+				E56DC91A253B40B000585A7A /* Data */,
 				E56DC919253B40A600585A7A /* Feature */,
 				E56DC918253B40A100585A7A /* Core */,
 				E56DC917253B408900585A7A /* App */,
@@ -197,6 +221,8 @@
 		E56DC918253B40A100585A7A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E5F504A7253DDB0800833848 /* Extesions */,
+				E5F5049C253DD7F200833848 /* Config */,
 				E5812570253B5016007C38D3 /* Base */,
 			);
 			path = Core;
@@ -211,11 +237,14 @@
 			path = Feature;
 			sourceTree = "<group>";
 		};
-		E56DC91A253B40B000585A7A /* Model */ = {
+		E56DC91A253B40B000585A7A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E5F5048E253DBEB700833848 /* Repository */,
+				E5F5048D253DBEA100833848 /* Apis */,
+				E5F5048C253DBE9300833848 /* Models */,
 			);
-			path = Model;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		E56DC91B253B40B900585A7A /* Resource */ = {
@@ -223,6 +252,7 @@
 			children = (
 				E56DC8E5253B2E8900585A7A /* Assets.xcassets */,
 				E56DC90F253B3A8600585A7A /* Colors.xcassets */,
+				E5F504E9253EF0CA00833848 /* Colors.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -249,11 +279,65 @@
 		E581258B253B5193007C38D3 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				E5F504DD253EEFC000833848 /* View */,
 				E581258C253B51A6007C38D3 /* DashboardViewController.swift */,
-				E581258D253B51A6007C38D3 /* DashboardViewController.xib */,
 				E581259B253B521C007C38D3 /* DashboardCoordinator.swift */,
+				E5F504CE253DE2C400833848 /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E5F5048C253DBE9300833848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504C8253DDF3200833848 /* PhotoModel.swift */,
+				E57CB0ED253DE050004DC089 /* BaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5F5048D253DBEA100833848 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5048F253DBFA900833848 /* PhotoApi.swift */,
+				E5F50497253DD7CC00833848 /* BaseApi.swift */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		E5F5048E253DBEB700833848 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504A2253DDA2500833848 /* PhotoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E5F5049C253DD7F200833848 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5049D253DD80C00833848 /* BuildConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E5F504A7253DDB0800833848 /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504A8253DDB3400833848 /* Reactive.swift */,
+				E5F504E1253EF0AF00833848 /* UIImageView.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
+		E5F504DD253EEFC000833848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */,
+				E581258D253B51A6007C38D3 /* DashboardViewController.xib */,
+				E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +449,7 @@
 				E56DC8E9253B2E8900585A7A /* LaunchScreen.storyboard in Resources */,
 				E56DC910253B3A8600585A7A /* Colors.xcassets in Resources */,
 				E581258F253B51A6007C38D3 /* DashboardViewController.xib in Resources */,
+				E5F504D9253ED91B00833848 /* PhotoCollectionViewCell.xib in Resources */,
 				E56DC8E6253B2E8900585A7A /* Assets.xcassets in Resources */,
 				E56DC923253B41D900585A7A /* SplashViewController.xib in Resources */,
 			);
@@ -461,13 +546,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E581256C253B4FF9007C38D3 /* AppCoordinator.swift in Sources */,
+				E5F504EA253EF0CA00833848 /* Colors.swift in Sources */,
+				E5F50490253DBFA900833848 /* PhotoApi.swift in Sources */,
 				E56DC8DD253B2E8600585A7A /* AppDelegate.swift in Sources */,
+				E5F504C9253DDF3200833848 /* PhotoModel.swift in Sources */,
 				E56DC8DF253B2E8600585A7A /* SceneDelegate.swift in Sources */,
+				E5F504D8253ED91B00833848 /* PhotoCollectionViewCell.swift in Sources */,
 				E56DC922253B41D900585A7A /* SplashViewController.swift in Sources */,
+				E57CB0EE253DE050004DC089 /* BaseModel.swift in Sources */,
 				E581257D253B5039007C38D3 /* BaseCoordinator.swift in Sources */,
+				E5F504CF253DE2C400833848 /* DashboardViewModel.swift in Sources */,
+				E5F5049E253DD80C00833848 /* BuildConfig.swift in Sources */,
 				E581254F253B4A9B007C38D3 /* SplashViewModel.swift in Sources */,
+				E5F504E2253EF0AF00833848 /* UIImageView.swift in Sources */,
 				E5812554253B4AAC007C38D3 /* SplashCoordinator.swift in Sources */,
+				E5F504A3253DDA2500833848 /* PhotoRepository.swift in Sources */,
+				E5F50498253DD7CC00833848 /* BaseApi.swift in Sources */,
 				E581259C253B521C007C38D3 /* DashboardCoordinator.swift in Sources */,
+				E5F504A9253DDB3400833848 /* Reactive.swift in Sources */,
 				E581258E253B51A6007C38D3 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KCDYLC7ER;
 				INFOPLIST_FILE = Unsplash/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -657,6 +754,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KCDYLC7ER;
 				INFOPLIST_FILE = Unsplash/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
