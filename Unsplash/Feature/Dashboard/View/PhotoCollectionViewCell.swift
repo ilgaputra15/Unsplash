@@ -12,6 +12,9 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        imageView.layer.masksToBounds = false
+        imageView.layer.cornerRadius = 12
+        imageView.clipsToBounds = true
     }
     
     func setView(photo: Photo) {

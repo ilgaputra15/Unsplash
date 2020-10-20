@@ -21,13 +21,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="302" height="168"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TgW-ki-VZ7">
-                                <rect key="frame" x="0.0" y="20" width="302" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="302" height="160"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="TgW-ki-VZ7" secondAttribute="bottom" constant="20" id="6zT-ch-iKP"/>
-                            <constraint firstItem="TgW-ki-VZ7" firstAttribute="top" secondItem="ouV-fD-hsh" secondAttribute="top" constant="20" id="pbH-go-N7N"/>
+                            <constraint firstAttribute="bottom" secondItem="TgW-ki-VZ7" secondAttribute="bottom" constant="8" id="6zT-ch-iKP"/>
+                            <constraint firstItem="TgW-ki-VZ7" firstAttribute="top" secondItem="ouV-fD-hsh" secondAttribute="top" id="pbH-go-N7N"/>
                             <constraint firstItem="TgW-ki-VZ7" firstAttribute="leading" secondItem="ouV-fD-hsh" secondAttribute="leading" id="quh-DP-SoY"/>
                             <constraint firstAttribute="trailing" secondItem="TgW-ki-VZ7" secondAttribute="trailing" id="rGd-20-tM3"/>
                         </constraints>
