@@ -12,9 +12,10 @@ struct Photo: Codable {
     let createdAt: String
     let color: String
     let urls: PhotoUrl
+    let likes: Int
     
     enum CodingKeys: String, CodingKey {
-        case id, color, urls
+        case id, color, urls, likes
         case createdAt = "created_at"
     }
 }

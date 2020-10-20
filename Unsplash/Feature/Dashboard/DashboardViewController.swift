@@ -77,7 +77,7 @@ extension DashboardViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
             let width = collectionView.bounds.width
             let cellWidth = (width - 56) / 2
-            return CGSize(width: cellWidth, height: cellWidth / 0.6)
+            return CGSize(width: cellWidth, height: cellWidth / 0.7)
         }
 }
 
