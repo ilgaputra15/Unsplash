@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26258FCE39823376F00AC3C5 /* libPods-Unsplash-UnsplashUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C78D56BF18B67B3535027CA /* libPods-Unsplash-UnsplashUITests.a */; };
-		B1CF7B70C84817555AF4E6A7 /* libPods-Unsplash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFE27F489D8D8DFA150BACD /* libPods-Unsplash.a */; };
-		C5DBF3E3A1648EED9B50E627 /* libPods-UnsplashTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758CC5DFBA4D4E668EBF5671 /* libPods-UnsplashTests.a */; };
+		587182465B69F2CD42F80543 /* libPods-Unsplash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B33F3CB4535553B8CB0F63 /* libPods-Unsplash.a */; };
+		CD44AECA3EEF1A9E7F1CC4E1 /* libPods-UnsplashTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477A3D4B7FDD192E8B0557F /* libPods-UnsplashTests.a */; };
 		E56DC8DD253B2E8600585A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC8DC253B2E8600585A7A /* AppDelegate.swift */; };
 		E56DC8DF253B2E8600585A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC8DE253B2E8600585A7A /* SceneDelegate.swift */; };
 		E56DC8E6253B2E8900585A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56DC8E5253B2E8900585A7A /* Assets.xcassets */; };
@@ -19,8 +18,28 @@
 		E56DC910253B3A8600585A7A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56DC90F253B3A8600585A7A /* Colors.xcassets */; };
 		E56DC922253B41D900585A7A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC920253B41D900585A7A /* SplashViewController.swift */; };
 		E56DC923253B41D900585A7A /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56DC921253B41D900585A7A /* SplashViewController.xib */; };
+		E57CB0EE253DE050004DC089 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57CB0ED253DE050004DC089 /* BaseModel.swift */; };
 		E581254F253B4A9B007C38D3 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581254E253B4A9B007C38D3 /* SplashViewModel.swift */; };
 		E5812554253B4AAC007C38D3 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5812553253B4AAC007C38D3 /* SplashCoordinator.swift */; };
+		E581256C253B4FF9007C38D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581256B253B4FF9007C38D3 /* AppCoordinator.swift */; };
+		E581257D253B5039007C38D3 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581257C253B5039007C38D3 /* BaseCoordinator.swift */; };
+		E581258E253B51A6007C38D3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581258C253B51A6007C38D3 /* DashboardViewController.swift */; };
+		E581258F253B51A6007C38D3 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E581258D253B51A6007C38D3 /* DashboardViewController.xib */; };
+		E581259C253B521C007C38D3 /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E581259B253B521C007C38D3 /* DashboardCoordinator.swift */; };
+		E5BFEA54253F159A00DB347C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFEA53253F159A00DB347C /* BaseViewController.swift */; };
+		E5BFEA59253F15F700DB347C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFEA58253F15F700DB347C /* BaseViewModel.swift */; };
+		E5F50490253DBFA900833848 /* PhotoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5048F253DBFA900833848 /* PhotoApi.swift */; };
+		E5F50498253DD7CC00833848 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F50497253DD7CC00833848 /* BaseApi.swift */; };
+		E5F5049E253DD80C00833848 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5049D253DD80C00833848 /* BuildConfig.swift */; };
+		E5F504A3253DDA2500833848 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504A2253DDA2500833848 /* PhotoRepository.swift */; };
+		E5F504A9253DDB3400833848 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504A8253DDB3400833848 /* Reactive.swift */; };
+		E5F504C9253DDF3200833848 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504C8253DDF3200833848 /* PhotoModel.swift */; };
+		E5F504CF253DE2C400833848 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504CE253DE2C400833848 /* DashboardViewModel.swift */; };
+		E5F504D8253ED91B00833848 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */; };
+		E5F504D9253ED91B00833848 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */; };
+		E5F504E2253EF0AF00833848 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504E1253EF0AF00833848 /* UIImageView.swift */; };
+		E5F504EA253EF0CA00833848 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F504E9253EF0CA00833848 /* Colors.swift */; };
+		E67C6593CD2AE8FDC3AE5237 /* libPods-Unsplash-UnsplashUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABB72DFBB87426DAE9E75F3 /* libPods-Unsplash-UnsplashUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		056812814DD7B978348DD930 /* Pods-UnsplashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashTests.release.xcconfig"; path = "Target Support Files/Pods-UnsplashTests/Pods-UnsplashTests.release.xcconfig"; sourceTree = "<group>"; };
-		2C78D56BF18B67B3535027CA /* libPods-Unsplash-UnsplashUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unsplash-UnsplashUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		758CC5DFBA4D4E668EBF5671 /* libPods-UnsplashTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnsplashTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0861D3FBEE61B5E8BCE8535 /* Pods-Unsplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash/Pods-Unsplash.debug.xcconfig"; sourceTree = "<group>"; };
-		A3FB6165D2FFD867F78313C3 /* Pods-Unsplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash.release.xcconfig"; path = "Target Support Files/Pods-Unsplash/Pods-Unsplash.release.xcconfig"; sourceTree = "<group>"; };
+		0477A3D4B7FDD192E8B0557F /* libPods-UnsplashTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnsplashTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B33F3CB4535553B8CB0F63 /* libPods-Unsplash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unsplash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344BAA197DCC6BC52AE85470 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-UnsplashUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash-UnsplashUITests/Pods-Unsplash-UnsplashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AF240B3BF067C43A857C297 /* Pods-UnsplashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashTests.release.xcconfig"; path = "Target Support Files/Pods-UnsplashTests/Pods-UnsplashTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BF21EE95AC9384855191DC1 /* Pods-UnsplashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashTests.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashTests/Pods-UnsplashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BB942A5A8F00A274F6689D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-UnsplashUITests.release.xcconfig"; path = "Target Support Files/Pods-Unsplash-UnsplashUITests/Pods-Unsplash-UnsplashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AABB72DFBB87426DAE9E75F3 /* libPods-Unsplash-UnsplashUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unsplash-UnsplashUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5E391850D35FD74836A70D /* Pods-Unsplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash/Pods-Unsplash.debug.xcconfig"; sourceTree = "<group>"; };
 		E56DC8D9253B2E8600585A7A /* Unsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56DC8DC253B2E8600585A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E56DC8DE253B2E8600585A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,12 +83,28 @@
 		E56DC90F253B3A8600585A7A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E56DC920253B41D900585A7A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		E56DC921253B41D900585A7A /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		E57CB0ED253DE050004DC089 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		E581254E253B4A9B007C38D3 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		E5812553253B4AAC007C38D3 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
-		E5A260EC64E27D19504F3E8D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-UnsplashUITests.release.xcconfig"; path = "Target Support Files/Pods-Unsplash-UnsplashUITests/Pods-Unsplash-UnsplashUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E84F2B248B94A2F36C3D9D54 /* Pods-UnsplashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashTests.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashTests/Pods-UnsplashTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EAFE27F489D8D8DFA150BACD /* libPods-Unsplash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unsplash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD925A20289EF33E94E21276 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-UnsplashUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash-UnsplashUITests/Pods-Unsplash-UnsplashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E581256B253B4FF9007C38D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E581257C253B5039007C38D3 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		E581258C253B51A6007C38D3 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		E581258D253B51A6007C38D3 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		E581259B253B521C007C38D3 /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
+		E5BFEA53253F159A00DB347C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E5BFEA58253F15F700DB347C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		E5F5048F253DBFA900833848 /* PhotoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApi.swift; sourceTree = "<group>"; };
+		E5F50497253DD7CC00833848 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		E5F5049D253DD80C00833848 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
+		E5F504A2253DDA2500833848 /* PhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		E5F504A8253DDB3400833848 /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
+		E5F504C8253DDF3200833848 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		E5F504CE253DE2C400833848 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5F504E1253EF0AF00833848 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E5F504E9253EF0CA00833848 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F2BAB0688D541DA24027D0D2 /* Pods-Unsplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash.release.xcconfig"; path = "Target Support Files/Pods-Unsplash/Pods-Unsplash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CF7B70C84817555AF4E6A7 /* libPods-Unsplash.a in Frameworks */,
+				587182465B69F2CD42F80543 /* libPods-Unsplash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DBF3E3A1648EED9B50E627 /* libPods-UnsplashTests.a in Frameworks */,
+				CD44AECA3EEF1A9E7F1CC4E1 /* libPods-UnsplashTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,35 +128,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26258FCE39823376F00AC3C5 /* libPods-Unsplash-UnsplashUITests.a in Frameworks */,
+				E67C6593CD2AE8FDC3AE5237 /* libPods-Unsplash-UnsplashUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8631CF583DAFE0ED22BA9017 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EAFE27F489D8D8DFA150BACD /* libPods-Unsplash.a */,
-				2C78D56BF18B67B3535027CA /* libPods-Unsplash-UnsplashUITests.a */,
-				758CC5DFBA4D4E668EBF5671 /* libPods-UnsplashTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B31AA7E410037C0F47B45C34 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0861D3FBEE61B5E8BCE8535 /* Pods-Unsplash.debug.xcconfig */,
-				A3FB6165D2FFD867F78313C3 /* Pods-Unsplash.release.xcconfig */,
-				FD925A20289EF33E94E21276 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */,
-				E5A260EC64E27D19504F3E8D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */,
-				E84F2B248B94A2F36C3D9D54 /* Pods-UnsplashTests.debug.xcconfig */,
-				056812814DD7B978348DD930 /* Pods-UnsplashTests.release.xcconfig */,
+				DC5E391850D35FD74836A70D /* Pods-Unsplash.debug.xcconfig */,
+				F2BAB0688D541DA24027D0D2 /* Pods-Unsplash.release.xcconfig */,
+				344BAA197DCC6BC52AE85470 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */,
+				A6BB942A5A8F00A274F6689D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */,
+				8BF21EE95AC9384855191DC1 /* Pods-UnsplashTests.debug.xcconfig */,
+				3AF240B3BF067C43A857C297 /* Pods-UnsplashTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC072F00FA872B71FFB00C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B33F3CB4535553B8CB0F63 /* libPods-Unsplash.a */,
+				AABB72DFBB87426DAE9E75F3 /* libPods-Unsplash-UnsplashUITests.a */,
+				0477A3D4B7FDD192E8B0557F /* libPods-UnsplashTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E56DC8D0253B2E8600585A7A = {
@@ -129,7 +166,7 @@
 				E56DC8FD253B2E8900585A7A /* UnsplashUITests */,
 				E56DC8DA253B2E8600585A7A /* Products */,
 				B31AA7E410037C0F47B45C34 /* Pods */,
-				8631CF583DAFE0ED22BA9017 /* Frameworks */,
+				BC072F00FA872B71FFB00C65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				E56DC91B253B40B900585A7A /* Resource */,
-				E56DC91A253B40B000585A7A /* Model */,
+				E56DC91A253B40B000585A7A /* Data */,
 				E56DC919253B40A600585A7A /* Feature */,
 				E56DC918253B40A100585A7A /* Core */,
 				E56DC917253B408900585A7A /* App */,
@@ -180,6 +217,7 @@
 				E56DC8E7253B2E8900585A7A /* LaunchScreen.storyboard */,
 				E56DC8DC253B2E8600585A7A /* AppDelegate.swift */,
 				E56DC8DE253B2E8600585A7A /* SceneDelegate.swift */,
+				E581256B253B4FF9007C38D3 /* AppCoordinator.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -187,6 +225,9 @@
 		E56DC918253B40A100585A7A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E5F504A7253DDB0800833848 /* Extesions */,
+				E5F5049C253DD7F200833848 /* Config */,
+				E5812570253B5016007C38D3 /* Base */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -194,16 +235,20 @@
 		E56DC919253B40A600585A7A /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				E581258B253B5193007C38D3 /* Dashboard */,
 				E56DC91F253B41AE00585A7A /* Splash */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
 		};
-		E56DC91A253B40B000585A7A /* Model */ = {
+		E56DC91A253B40B000585A7A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E5F5048E253DBEB700833848 /* Repository */,
+				E5F5048D253DBEA100833848 /* Apis */,
+				E5F5048C253DBE9300833848 /* Models */,
 			);
-			path = Model;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		E56DC91B253B40B900585A7A /* Resource */ = {
@@ -211,6 +256,7 @@
 			children = (
 				E56DC8E5253B2E8900585A7A /* Assets.xcassets */,
 				E56DC90F253B3A8600585A7A /* Colors.xcassets */,
+				E5F504E9253EF0CA00833848 /* Colors.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -226,6 +272,80 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		E5812570253B5016007C38D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E581257C253B5039007C38D3 /* BaseCoordinator.swift */,
+				E5BFEA53253F159A00DB347C /* BaseViewController.swift */,
+				E5BFEA58253F15F700DB347C /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E581258B253B5193007C38D3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504DD253EEFC000833848 /* View */,
+				E581258C253B51A6007C38D3 /* DashboardViewController.swift */,
+				E581259B253B521C007C38D3 /* DashboardCoordinator.swift */,
+				E5F504CE253DE2C400833848 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E5F5048C253DBE9300833848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504C8253DDF3200833848 /* PhotoModel.swift */,
+				E57CB0ED253DE050004DC089 /* BaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5F5048D253DBEA100833848 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5048F253DBFA900833848 /* PhotoApi.swift */,
+				E5F50497253DD7CC00833848 /* BaseApi.swift */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		E5F5048E253DBEB700833848 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504A2253DDA2500833848 /* PhotoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E5F5049C253DD7F200833848 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5049D253DD80C00833848 /* BuildConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E5F504A7253DDB0800833848 /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504A8253DDB3400833848 /* Reactive.swift */,
+				E5F504E1253EF0AF00833848 /* UIImageView.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
+		E5F504DD253EEFC000833848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5F504D6253ED91B00833848 /* PhotoCollectionViewCell.swift */,
+				E581258D253B51A6007C38D3 /* DashboardViewController.xib */,
+				E5F504D7253ED91B00833848 /* PhotoCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,7 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56DC903253B2E8900585A7A /* Build configuration list for PBXNativeTarget "Unsplash" */;
 			buildPhases = (
-				435C1A91A71F8ECB09B35E18 /* [CP] Check Pods Manifest.lock */,
+				9066A54F9D22FFD4DFC0584C /* [CP] Check Pods Manifest.lock */,
 				E56DC8D5253B2E8600585A7A /* Sources */,
 				E56DC8D6253B2E8600585A7A /* Frameworks */,
 				E56DC8D7253B2E8600585A7A /* Resources */,
@@ -251,7 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56DC906253B2E8900585A7A /* Build configuration list for PBXNativeTarget "UnsplashTests" */;
 			buildPhases = (
-				87BF0A86CB7457AD58D7BBB2 /* [CP] Check Pods Manifest.lock */,
+				A1B68F72148FC6B8DEAA1FAB /* [CP] Check Pods Manifest.lock */,
 				E56DC8EB253B2E8900585A7A /* Sources */,
 				E56DC8EC253B2E8900585A7A /* Frameworks */,
 				E56DC8ED253B2E8900585A7A /* Resources */,
@@ -270,7 +390,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56DC909253B2E8900585A7A /* Build configuration list for PBXNativeTarget "UnsplashUITests" */;
 			buildPhases = (
-				15768968FB5BA420561517E9 /* [CP] Check Pods Manifest.lock */,
+				A07EEC144E76979531844CE1 /* [CP] Check Pods Manifest.lock */,
 				E56DC8F6253B2E8900585A7A /* Sources */,
 				E56DC8F7253B2E8900585A7A /* Frameworks */,
 				E56DC8F8253B2E8900585A7A /* Resources */,
@@ -334,6 +454,8 @@
 			files = (
 				E56DC8E9253B2E8900585A7A /* LaunchScreen.storyboard in Resources */,
 				E56DC910253B3A8600585A7A /* Colors.xcassets in Resources */,
+				E581258F253B51A6007C38D3 /* DashboardViewController.xib in Resources */,
+				E5F504D9253ED91B00833848 /* PhotoCollectionViewCell.xib in Resources */,
 				E56DC8E6253B2E8900585A7A /* Assets.xcassets in Resources */,
 				E56DC923253B41D900585A7A /* SplashViewController.xib in Resources */,
 			);
@@ -356,29 +478,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15768968FB5BA420561517E9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Unsplash-UnsplashUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		435C1A91A71F8ECB09B35E18 /* [CP] Check Pods Manifest.lock */ = {
+		9066A54F9D22FFD4DFC0584C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,7 +500,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87BF0A86CB7457AD58D7BBB2 /* [CP] Check Pods Manifest.lock */ = {
+		A07EEC144E76979531844CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unsplash-UnsplashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B68F72148FC6B8DEAA1FAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,11 +551,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E581256C253B4FF9007C38D3 /* AppCoordinator.swift in Sources */,
+				E5BFEA59253F15F700DB347C /* BaseViewModel.swift in Sources */,
+				E5F504EA253EF0CA00833848 /* Colors.swift in Sources */,
+				E5F50490253DBFA900833848 /* PhotoApi.swift in Sources */,
 				E56DC8DD253B2E8600585A7A /* AppDelegate.swift in Sources */,
+				E5F504C9253DDF3200833848 /* PhotoModel.swift in Sources */,
+				E5BFEA54253F159A00DB347C /* BaseViewController.swift in Sources */,
 				E56DC8DF253B2E8600585A7A /* SceneDelegate.swift in Sources */,
+				E5F504D8253ED91B00833848 /* PhotoCollectionViewCell.swift in Sources */,
 				E56DC922253B41D900585A7A /* SplashViewController.swift in Sources */,
+				E57CB0EE253DE050004DC089 /* BaseModel.swift in Sources */,
+				E581257D253B5039007C38D3 /* BaseCoordinator.swift in Sources */,
+				E5F504CF253DE2C400833848 /* DashboardViewModel.swift in Sources */,
+				E5F5049E253DD80C00833848 /* BuildConfig.swift in Sources */,
 				E581254F253B4A9B007C38D3 /* SplashViewModel.swift in Sources */,
+				E5F504E2253EF0AF00833848 /* UIImageView.swift in Sources */,
 				E5812554253B4AAC007C38D3 /* SplashCoordinator.swift in Sources */,
+				E5F504A3253DDA2500833848 /* PhotoRepository.swift in Sources */,
+				E5F50498253DD7CC00833848 /* BaseApi.swift in Sources */,
+				E581259C253B521C007C38D3 /* DashboardCoordinator.swift in Sources */,
+				E5F504A9253DDB3400833848 /* Reactive.swift in Sources */,
+				E581258E253B51A6007C38D3 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,11 +737,12 @@
 		};
 		E56DC904253B2E8900585A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0861D3FBEE61B5E8BCE8535 /* Pods-Unsplash.debug.xcconfig */;
+			baseConfigurationReference = DC5E391850D35FD74836A70D /* Pods-Unsplash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KCDYLC7ER;
 				INFOPLIST_FILE = Unsplash/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,11 +757,12 @@
 		};
 		E56DC905253B2E8900585A7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3FB6165D2FFD867F78313C3 /* Pods-Unsplash.release.xcconfig */;
+			baseConfigurationReference = F2BAB0688D541DA24027D0D2 /* Pods-Unsplash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KCDYLC7ER;
 				INFOPLIST_FILE = Unsplash/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,7 +777,7 @@
 		};
 		E56DC907253B2E8900585A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E84F2B248B94A2F36C3D9D54 /* Pods-UnsplashTests.debug.xcconfig */;
+			baseConfigurationReference = 8BF21EE95AC9384855191DC1 /* Pods-UnsplashTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,7 +799,7 @@
 		};
 		E56DC908253B2E8900585A7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 056812814DD7B978348DD930 /* Pods-UnsplashTests.release.xcconfig */;
+			baseConfigurationReference = 3AF240B3BF067C43A857C297 /* Pods-UnsplashTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -680,7 +821,7 @@
 		};
 		E56DC90A253B2E8900585A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD925A20289EF33E94E21276 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */;
+			baseConfigurationReference = 344BAA197DCC6BC52AE85470 /* Pods-Unsplash-UnsplashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -700,7 +841,7 @@
 		};
 		E56DC90B253B2E8900585A7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5A260EC64E27D19504F3E8D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */;
+			baseConfigurationReference = A6BB942A5A8F00A274F6689D /* Pods-Unsplash-UnsplashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
